@@ -1,0 +1,27 @@
+{
+  "rabbit_version": "3.11",
+  "users": [
+    {
+      "name": "guest",
+      "password": "guest",
+      "tags": ["administrator"]
+    }
+  ],
+  "vhosts": [{ "name": "rps" }],
+  "permissions": [
+    {
+      "user": "guest",
+      "vhost": "rps",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
+  "topic_permissions": [],
+  "parameters": [],
+  "global_parameters": [],
+  "policies": [],
+  "queues": [],
+  "exchanges": [],
+  "bindings": []
+}
