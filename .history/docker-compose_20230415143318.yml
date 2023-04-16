@@ -1,9 +1,0 @@
-version: "3.8"
-services:
-  queue:
-    build:
-      context: .
-      dockerfile: src/scripts/rabbitmq/Dockerfile.rabbitmq
-    ports:
-      - 15672:15672
-      - 5672:5672
